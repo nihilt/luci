@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-02 07:28+0000\n"
-"Last-Translator: Maksim_220 Кабанов <law820314@gmail.com>\n"
+"PO-Revision-Date: 2025-05-11 19:01+0000\n"
+"Last-Translator: SnIPeRSnIPeR <feoktistovk@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsattendedsysupgrade/ru/>\n"
 "Language: ru\n"
@@ -84,7 +84,7 @@ msgstr "Завершена генерация образа прошивки"
 
 #: applications/luci-app-attendedsysupgrade/root/usr/share/luci/menu.d/luci-app-attendedsysupgrade.json:24
 msgid "Configuration"
-msgstr "Конфиг"
+msgstr "Конфигурация"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:471
 msgid "Could not reach API at \"%s\". Please try again later."
@@ -360,72 +360,3 @@ msgstr "и"
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:56
 msgid "release notes"
 msgstr "примечания к выпуску"
-
-#~ msgid "Validate package selection"
-#~ msgstr "Проверка выбора пакета"
-
-#~ msgid "10% Received build request"
-#~ msgstr "10% Получен запрос на сборку"
-
-#~ msgid "20% Downloading ImageBuilder archive"
-#~ msgstr "20% Загрузка архива ImageBuilder"
-
-#~ msgid "40% Setting Up ImageBuilder"
-#~ msgstr "40% Установка ImageBuilder"
-
-#~ msgid "60% Validate package selection"
-#~ msgstr "60% Проверка выбранных пакетов"
-
-#~ msgid "80% Generating firmware image"
-#~ msgstr "80% Генерация образа прошивки"
-
-#~ msgid "Progress: %s"
-#~ msgstr "Прогресс: %s"
-
-#~ msgid "Building firmware sysupgrade image"
-#~ msgstr "Сборка sysupgrade-образа прошивки"
-
-#~ msgid "Error building the sysupgrade"
-#~ msgstr "Ошибка при создании обновления системы"
-
-#~ msgid "File"
-#~ msgstr "Файл"
-
-#~ msgid "Install Sysupgrade"
-#~ msgstr "Установить обновление системы"
-
-#~ msgid "New upgrade available"
-#~ msgstr "Доступно новое обновление"
-
-#~ msgid "Request Sysupgrade"
-#~ msgstr "Запросить обновление системы"
-
-#~ msgid "Request to server:"
-#~ msgstr "Запрос к серверу:"
-
-#~ msgid "Search for sysupgrade"
-#~ msgstr "Искать обновление системы"
-
-#~ msgid "Successfully created sysupgrade image"
-#~ msgstr "Образ обновления системы успешно создан"
-
-#~ msgid "Request in build queue position %d"
-#~ msgstr "Запрос в очереди сборки на позиции %d"
-
-#~ msgid "Searching for an available sysupgrade"
-#~ msgstr "Поиск доступного обновления системы"
-
-#~ msgid "The device runs the latest firmware version"
-#~ msgstr "Устройство работает на последней версии прошивки"
-
-#~ msgid "Building the sysupgrade image"
-#~ msgstr "Создание образа обновления системы"
-
-#~ msgid "Request in build queue"
-#~ msgstr "Запрос в очереди на сборку"
-
-#~ msgid "Advances Mode"
-#~ msgstr "Расширенный режим"
-
-#~ msgid "attended sysupgrade via rpcd and luci"
-#~ msgstr "выполните sysupgrade через rpcd и luci"

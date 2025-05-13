@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-02 07:29+0000\n"
-"Last-Translator: Maksim_220 Кабанов <law820314@gmail.com>\n"
+"PO-Revision-Date: 2025-05-11 19:01+0000\n"
+"Last-Translator: SnIPeRSnIPeR <feoktistovk@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsusteer/ru/>\n"
 "Language: ru\n"
@@ -400,7 +400,7 @@ msgstr "N"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:405
 msgid "Network"
-msgstr "Сетевое подключение"
+msgstr "Сеть"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:423
 msgid "Network packet info"
@@ -640,14 +640,3 @@ msgstr "по умолчанию true"
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:625
 msgid "empty means all"
 msgstr "пустой означает, что все"
-
-#~ msgid "Timeout (in 100ms beacon intervals) for client roam requests"
-#~ msgstr "Таймаут (в интервалах 100 мс) для запросов клиента на роуминг"
-
-#~ msgctxt "Combination of IP and interface name in usteer overview"
-#~ msgid "IP & Interface"
-#~ msgstr "IP и интерфейс"
-
-#~ msgctxt "Combination of IP and interface name in usteer overview"
-#~ msgid "IP & Interface name"
-#~ msgstr "IP-адрес и имя интерфейса"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-26 12:00+0000\n"
+"PO-Revision-Date: 2025-05-12 07:34+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsattendedsysupgrade/cs/>\n"
@@ -154,8 +154,8 @@ msgstr "Vytváření obrazu firmware"
 #: applications/luci-app-attendedsysupgrade/root/usr/share/rpcd/acl.d/luci-app-attendedsysupgrade.json:3
 msgid "Grant UCI access to LuCI app attendedsysupgrade"
 msgstr ""
-"Udělit přístup UCI k LuCI aplikaci interaktivního přechodu na novější verzi "
-"systému"
+"Udělit LuCI aplikaci „Interaktivní přechod na novější verzi systému“ přístup "
+"do UCI nastavování"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:214
 msgid "Install firmware image"
@@ -365,24 +365,3 @@ msgstr "a"
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:56
 msgid "release notes"
 msgstr "poznámky k vydání"
-
-#~ msgid "Validate package selection"
-#~ msgstr "Ověření výběru balíčků"
-
-#~ msgid "10% Received build request"
-#~ msgstr "10% Přijat požadavek k sestavení"
-
-#~ msgid "20% Downloading ImageBuilder archive"
-#~ msgstr "20% Stahování archívu překladače"
-
-#~ msgid "40% Setting Up ImageBuilder"
-#~ msgstr "40% Konfigurace překladače"
-
-#~ msgid "60% Validate package selection"
-#~ msgstr "60% Validace výběru balíčků"
-
-#~ msgid "80% Generating firmware image"
-#~ msgstr "80% Generování obrazu firmwaru"
-
-#~ msgid "Progress: %s"
-#~ msgstr "Průběh: %s"

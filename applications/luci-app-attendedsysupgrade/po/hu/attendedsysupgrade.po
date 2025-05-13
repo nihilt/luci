@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-24 13:06+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2025-05-09 16:01+0000\n"
+"Last-Translator: hmzs <hmzs@1szer1.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsattendedsysupgrade/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:50
 msgid "A new %s version of OpenWrt is available:"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:37
 msgid "Available"
-msgstr ""
+msgstr "Elérhető"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:557
 msgid "Board Name / Profile"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:168
 msgid "Filesystem"
-msgstr ""
+msgstr "Fájlrendszer"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:20
 msgid "Firmware Version"
@@ -153,6 +153,7 @@ msgstr ""
 #: applications/luci-app-attendedsysupgrade/root/usr/share/rpcd/acl.d/luci-app-attendedsysupgrade.json:3
 msgid "Grant UCI access to LuCI app attendedsysupgrade"
 msgstr ""
+"Hozzáférés engedélyezése az <em>attendedsysupgrade</em> LuCI alkalmazáshoz"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:214
 msgid "Install firmware image"
@@ -356,24 +357,3 @@ msgstr ""
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:56
 msgid "release notes"
 msgstr ""
-
-#~ msgid "Error building the sysupgrade"
-#~ msgstr "Hiba történt az építés közben"
-
-#~ msgid "Install Sysupgrade"
-#~ msgstr "Rendszerfrissítés telepítése"
-
-#~ msgid "New upgrade available"
-#~ msgstr "Új frissítés érhető el"
-
-#~ msgid "Request Sysupgrade"
-#~ msgstr "Frissítés keresése"
-
-#~ msgid "Successfully created sysupgrade image"
-#~ msgstr "Frissítő lemezkép sikeresen létrejött"
-
-#~ msgid "The device runs the latest firmware version"
-#~ msgstr "Az eszközön a legfrissebb firmware verzió fut"
-
-#~ msgid "Building the sysupgrade image"
-#~ msgstr "sysupgrade lemezkép építése"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-24 17:18+0000\n"
-"Last-Translator: Максим Горпиніч <maksimgorpinic2005a@gmail.com>\n"
+"PO-Revision-Date: 2025-05-10 23:01+0000\n"
+"Last-Translator: Максим Горпиніч <maksimgorpinic4@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationshttps-dns-proxy/uk/>\n"
 "Language: uk\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:275
 msgid "%s%s%s proxy at %s on port %s.%s"
@@ -466,7 +466,7 @@ msgstr "Quad 9"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:336
 msgid "Restart"
-msgstr "Перезапустити"
+msgstr "Перезавантажити"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:330
 msgid "Restarting %s service"
@@ -667,159 +667,3 @@ msgstr "Версія %s - Зупинено."
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.wikimedia-dns.json:2
 msgid "Wikimedia"
 msgstr "Wikimedia"
-
-#~ msgid "Forces Router DNS use on local devices, also known as DNS Hijacking."
-#~ msgstr ""
-#~ "Змушує маршрутизатор використовувати DNS на локальних пристроях, також "
-#~ "відомий як перехоплення DNS."
-
-#~ msgid "%s DoH at %s:%s"
-#~ msgstr "%s DoH о %s:%s"
-
-#~ msgid "%s is not installed or not found"
-#~ msgstr "%s не встановлено, або не знайдено"
-
-#~ msgid "360 Secure DNS - CN"
-#~ msgstr "360 Secure DNS - CN"
-
-#~ msgid "AdGuard (Family Protection)"
-#~ msgstr "AdGuard (Сімейний захист)"
-
-#~ msgid "AdGuard (Standard)"
-#~ msgstr "AdGuard (Стандарт)"
-
-#~ msgid "AhaDNS - AU (Block Malware + Ads)"
-#~ msgstr "AhaDNS - AU (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - ES (Block Malware + Ads)"
-#~ msgstr "AhaDNS - ES (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - IN (Block Malware + Ads)"
-#~ msgstr "AhaDNS - IN (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - IT (Block Malware + Ads)"
-#~ msgstr "AhaDNS - IT (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - NL (Block Malware + Ads)"
-#~ msgstr "AhaDNS - NL (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - NO (Block Malware + Ads)"
-#~ msgstr "AhaDNS - NO (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - PL (Block Malware + Ads)"
-#~ msgstr "AhaDNS - PL (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - US/Chicago (Block Malware + Ads)"
-#~ msgstr "AhaDNS - US/Chicago (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - US/Los Angeles (Block Malware + Ads)"
-#~ msgstr "AhaDNS - US/Los Angeles (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS - US/New York (Block Malware + Ads)"
-#~ msgstr "AhaDNS - US/New York (блокує шкідливе ПЗ + рекламу)"
-
-#~ msgid "AhaDNS Blitz (Configurable)"
-#~ msgstr "AhaDNS Blitz (налаштовується)"
-
-#~ msgid ""
-#~ "Blocks access to Mozilla resolvers, forcing local devices to use router "
-#~ "for DNS resolution (%smore information%s)."
-#~ msgstr ""
-#~ "Блокує доступ до резолверів Mozilla, змушуючи локальні пристрої "
-#~ "використовувати маршрутизатор для вирішення DNS (%sбільше інформації%s)."
-
-#~ msgid "CleanBrowsing (Adult Filter)"
-#~ msgstr "CleanBrowsing (Віковий фільтр)"
-
-#~ msgid "CleanBrowsing (Family Filter)"
-#~ msgstr "CleanBrowsing (Сімейний фільтр)"
-
-#~ msgid "CleanBrowsing (Security Filter)"
-#~ msgstr "CleanBrowsing (Безпечний фільтр)"
-
-#~ msgid "Configuration"
-#~ msgstr "Конфігурація"
-
-#~ msgid "DNS HTTPS Proxy Settings"
-#~ msgstr "Налаштування DNS HTTPS проксі-cервера"
-
-#~ msgid "DNS.SB"
-#~ msgstr "DNS.SB"
-
-#~ msgid "For more information on different options check"
-#~ msgstr "Для більш детальної інформації по параметрах, перевірте"
-
-#~ msgid "Instances"
-#~ msgstr "Приклади застосування"
-
-#~ msgid "Loading"
-#~ msgstr "Завантаження"
-
-#~ msgid "ODVR (nic.cz)"
-#~ msgstr "ODVR (nic.cz)"
-
-#~ msgid "Quad 9 (Recommended)"
-#~ msgstr "Quad 9 (Рекомендовано)"
-
-#~ msgid "Quad 9 (Secured with ECS Support)"
-#~ msgstr "Quad 9 (Захищено з підтримкою ECS)"
-
-#~ msgid "Quad 9 (Secured)"
-#~ msgstr "Quad 9 (Захищено)"
-
-#~ msgid "Quad 9 (Unsecured)"
-#~ msgstr "Quad 9 (Не захищено)"
-
-#~ msgid "Reload"
-#~ msgstr "Перезавантажити"
-
-#~ msgid "Service Status [%s %s]"
-#~ msgstr "Статус сервісу [%s %s]"
-
-#~ msgid "Stopped"
-#~ msgstr "Зупинено"
-
-#~ msgid "Unknown Provider"
-#~ msgstr "Невідомий постачальник"
-
-#~ msgid "Update %s config"
-#~ msgstr "Оновити конфігурацію %s"
-
-#~ msgid "and"
-#~ msgstr "та"
-
-#~ msgid "disabled"
-#~ msgstr "вимкнено"
-
-#~ msgid "rubyfish.cn"
-#~ msgstr "rubyfish.cn"
-
-#~ msgid "Digitale Gesellschaft"
-#~ msgstr "Digitale Gesellschaft"
-
-#~ msgid "Listen address"
-#~ msgstr "Адреса для прослуховування"
-
-#~ msgid "Listen port"
-#~ msgstr "Порт для прослуховування"
-
-#~ msgid "Proxy server"
-#~ msgstr "Проксі сервер"
-
-#~ msgid "EDNS client subnet"
-#~ msgstr "Клієнтська підмережа EDNS"
-
-#~ msgid "DNS Over HTTPS Proxy"
-#~ msgstr "DNS через HTTPS проксі"
-
-#~ msgid "DNS Over HTTPS Proxy Settings"
-#~ msgstr "Налаштування DNS через HTTPS проксі"
-
-#~ msgid "DHCP and DNS"
-#~ msgstr "DHCP та DNS"
-
-#~ msgid "DoH"
-#~ msgstr "DoH"
-
-#~ msgid "is not installed or not found"
-#~ msgstr "не встановлено, або не знайдено"

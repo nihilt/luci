@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:40+0200\n"
-"PO-Revision-Date: 2025-02-04 07:30+0000\n"
-"Last-Translator: Kay Kim <kaykim@kaykim.org>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/luci/ko/>"
-"\n"
+"PO-Revision-Date: 2025-05-07 12:01+0000\n"
+"Last-Translator: Beomjun <kals323@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/luci/ko/"
+">\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1277
 msgid "!known (not known)"
@@ -549,11 +549,11 @@ msgstr "APN"
 
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:144
 msgid "APN profile index"
-msgstr ""
+msgstr "APN 프로필 인덱스"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:875
 msgid "ARP link monitoring"
-msgstr ""
+msgstr "ARP 링크 모니터링"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:901
 msgid "ARP monitor target IP address"
@@ -562,7 +562,7 @@ msgstr ""
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:107
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:107
 msgid "ARP proxy"
-msgstr ""
+msgstr "ARP 프록시"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:175
 msgid "ARP retry threshold"
@@ -574,7 +574,7 @@ msgstr "ARP 트래픽 테이블 \"%h\""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:909
 msgid "ARP validation policy"
-msgstr ""
+msgstr "ARP 검증 정책"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1208
 msgid ""
@@ -722,7 +722,7 @@ msgstr "애드혹"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:629
 msgid "Adaptive load balancing"
-msgstr ""
+msgstr "적응형 부하 분산"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:628
 msgid "Adaptive transmit load balancing"
@@ -802,7 +802,7 @@ msgstr "hosts에 등록된 호스트명에 로컬 도메인 접미사를 추가�
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:283
 msgid "Add multicast rule"
-msgstr ""
+msgstr "멀티캐스트 룰 추가"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:450
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1219
@@ -826,7 +826,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:352
 msgctxt "Dnsmasq instance"
 msgid "Add server instance"
-msgstr ""
+msgstr "서버 인스턴스 추가"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1298
 msgid "Add static forward and reverse DNS entries for this host."
@@ -965,7 +965,7 @@ msgstr "\"%s\"의 별칭"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:914
 msgid "All"
-msgstr ""
+msgstr "전체"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:905
 msgid "All ARP Targets"
@@ -1445,7 +1445,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:314
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:139
 msgid "Bandwidth"
-msgstr ""
+msgstr "대역폭"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:494
 msgid "Base device"
@@ -1566,7 +1566,7 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3031
 #: modules/luci-compat/luasrc/model/network.lua:1421
 msgid "Bridge"
-msgstr ""
+msgstr "브리지"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:554
 msgctxt "MACVLAN mode"
@@ -1662,7 +1662,7 @@ msgstr "CPU 사용량 (%)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:388
 msgid "Cache"
-msgstr ""
+msgstr "캐시"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:403
 msgid "Cache arbitrary RR"
@@ -1738,7 +1738,7 @@ msgstr ""
 
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:17
 msgid "Category"
-msgstr ""
+msgstr "카테고리"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:114
 msgid "Cell ID"
@@ -2749,7 +2749,7 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/25_storage.js:59
 msgid "Disk space"
-msgstr ""
+msgstr "디스크 공간"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:614
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3030
@@ -12524,409 +12524,3 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
 msgstr "« 이전"
-
-#~ msgid "Start"
-#~ msgstr "시작"
-
-#~ msgid "ARP"
-#~ msgstr "ARP"
-
-#~ msgid "ARP IP Targets"
-#~ msgstr "ARP IP 타겟"
-
-#~ msgid "ARP Interval"
-#~ msgstr "ARP 간격"
-
-#~ msgid "ARP Validation"
-#~ msgstr "ARP 검증"
-
-#~ msgid "ARP mode to consider a slave as being up"
-#~ msgstr "ARP 모드가 슬레이브를 작동 중인 것으로 간주하기"
-
-#~ msgid "ARP monitoring is not supported for the selected policy!"
-#~ msgstr "선택된 정책은 ARP 모니터링을 지원하지 않습니다!"
-
-#~ msgid "Active-Backup policy (active-backup, 1)"
-#~ msgstr "활성화된 백업 정책 (active-backup, 1)"
-
-#~ msgid "Adaptive load balancing (balance-alb, 6)"
-#~ msgstr "적응형 부하 분산 (balance-alb, 6)"
-
-#~ msgid "Adaptive transmit load balancing (balance-tlb, 5)"
-#~ msgstr "적응형 송신 부하 분산 (balance-tlb, 5)"
-
-#~ msgid "Aggregation Selection Logic"
-#~ msgstr "집계 선택 논리"
-
-#~ msgid "Aggregator: All slaves down or has no slaves (stable, 0)"
-#~ msgstr ""
-#~ "Aggregator: 모든 slaves가 종료 되었거나, 존재하지 않습니다. (stable, 0)"
-
-#~ msgid "Link Aggregation (Channel Bonding)"
-#~ msgstr "링크 어그리게이션 (채널 본딩)"
-
-#~ msgid "Round-Robin policy (balance-rr, 0)"
-#~ msgstr "라운드 로빈 정책 (balance-rr, 0)"
-
-#~ msgid "Specifies the IP addresses to use for ARP monitoring"
-#~ msgstr "ARP 모니터링에 사용할 IP주소 지정"
-
-#~ msgid "The local IPv4 address"
-#~ msgstr "로컬 IPv4 주소"
-
-#~ msgid "The local IPv4 netmask"
-#~ msgstr "로컬 IPv4 넷마스크"
-
-#~ msgid "XOR policy (balance-xor, 2)"
-#~ msgstr "XOR 정책 (balance-xor, 2)"
-
-#~ msgid "Yes (none, 0)"
-#~ msgstr "예 (없음, 0)"
-
-#~ msgid "Back"
-#~ msgstr "뒤로"
-
-#~ msgid "Apply and keep settings"
-#~ msgstr "적용 및 설정 유지"
-
-#~ msgid "Run a filesystem check before mounting the device"
-#~ msgstr "기기 마운트 전에 파일시스템 검사 실행"
-
-#~ msgid "Run filesystem check"
-#~ msgstr "파일시스템 검사 실행"
-
-#~ msgid "Always send DHCP Options. Sometimes needed, with e.g. PXELinux."
-#~ msgstr ""
-#~ "항상 DHCP 옵션을 전송합니다. 떄로 PXELinux와 같은 특정 경우에 필요할 수 있"
-#~ "습니다."
-
-#~ msgid "Apply DHCP Options to this net. (Empty = all clients)."
-#~ msgstr ""
-#~ "이 네트워크에 DHCP 옵션을 적용합니다. (비어 있는 경우 모든 클라이언트)."
-
-#~ msgid "Resolv and Hosts Files"
-#~ msgstr "Resolv 와 Hosts 파일"
-
-#~ msgid "Upstream resolvers will be queried in the order of the resolv file."
-#~ msgstr ""
-#~ "<abbr title=\"Domain Name System\">DNS</abbr> 서버들이 resolvfile의 순서"
-#~ "에 따라 쿼리됩니다"
-
-#~ msgid "Ignore <code>/etc/hosts</code>"
-#~ msgstr "<code>/etc/hosts</code> 파일 무시"
-
-#~ msgid ""
-#~ "<code>/#/</code> matches any domain. <code>/example.com/</code> returns "
-#~ "NXDOMAIN."
-#~ msgstr ""
-#~ "<code>/#/</code> <code>/example.com/</code>와 일치하는 모든 도메인은 "
-#~ "NXDOMAIN을 반환합니다."
-
-#~ msgctxt ""
-#~ "hint: <code>/example.com/#</code> returns NULL addresses (<code>0.0.0.0</"
-#~ "code>, <code>::</code>) for example.com and its subdomains."
-#~ msgid ""
-#~ "{example_null} returns {null_addr} addresses ({null_ipv4},{null_ipv6}) "
-#~ "for {example_com} and its subdomains."
-#~ msgstr ""
-#~ "{example_null} 는 {example_com}과 그 서브도메인에 대해 {null_addr} 주소 "
-#~ "({null_ipv4} 와 {null_ipv6})를 반환합니다."
-
-#~ msgid "Modem disconnection in progress. Please wait."
-#~ msgstr "모뎀의 연결을 해제하고 있습니다. 잠시만 기다려주세요."
-
-#~ msgid "IPv6 suffix (hex)"
-#~ msgstr ""
-#~ "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-접미사 (16진수)"
-
-#~ msgid "ATU-C System Vendor ID"
-#~ msgstr "ATU-C 시스템 벤더 ID"
-
-#~ msgid "Aggregate Transmit Power (ACTATP)"
-#~ msgstr "전송 전력 집계 (ACTATP)"
-
-#~ msgid "Header Error Code Errors (HEC)"
-#~ msgstr "Header Error Code Errors (HEC)"
-
-#~ msgid "Signal Attenuation (SATN)"
-#~ msgstr "신호 감쇠 (SATN)"
-
-#~ msgid "Network Utilities"
-#~ msgstr "네트워크 유틸리티"
-
-#~ msgid "Back to configuration"
-#~ msgstr "설정으로 돌아가기"
-
-#~ msgid "Close list..."
-#~ msgstr "목록 닫기..."
-
-#~ msgid "Sorry, the server encountered an unexpected error."
-#~ msgstr "죄송합니다, 서버가 예상치 못한 오류에 걸렸습니다."
-
-#~ msgid "Root directory for files served via TFTP."
-#~ msgstr "TFTP 를 통해 제공되는 파일들의 root 디렉토리"
-
-#~ msgid "TFTP Settings"
-#~ msgstr "TFTP 설정"
-
-#~ msgid "Auto Refresh"
-#~ msgstr "자동 Refresh"
-
-#, fuzzy
-#~ msgid "on"
-#~ msgstr "켜짐"
-
-#~ msgid "Grant access to the system route status"
-#~ msgstr "시스템 라우트 상태에 관한 접근 권한 부여"
-
-#~ msgid "Host entries"
-#~ msgstr "호스트 목록들"
-
-#~ msgid ""
-#~ "<br/>Note: you need to manually restart the cron service if the crontab "
-#~ "file was empty before editing."
-#~ msgstr ""
-#~ "<br/>참고: 만약 비어있는 crontab 파일을 수정했다면 수동으로 cron 서비스를 "
-#~ "다시 시작해야 합니다."
-
-#~ msgid "Announced DNS servers"
-#~ msgstr "알려진 DNS 서버"
-
-#~ msgid "Override MAC address"
-#~ msgstr "MAC 주소 덮어쓰기"
-
-#, fuzzy
-#~ msgid "stateless"
-#~ msgstr "무상태"
-
-#, fuzzy
-#~ msgid "stateless + stateful"
-#~ msgstr "무상태성 + 상태성"
-
-#~ msgid "Bridge interfaces"
-#~ msgstr "Bridge 인터페이스"
-
-#~ msgid "Creates a bridge over specified interface(s)"
-#~ msgstr "지정한 인터페이스(들)로 구성된 bridge 를 생성합니다"
-
-#~ msgid "Always announce default router"
-#~ msgstr "항상 기본 라우터 안내"
-
-#~ msgid "Set VPN as Default Route"
-#~ msgstr "VPN 을 기본 라우트로 설정"
-
-#~ msgid "Enable/Disable"
-#~ msgstr "활성/비활성"
-
-#~ msgid "Free"
-#~ msgstr "이용 가능한 양"
-
-#~ msgid "Waiting for command to complete..."
-#~ msgstr "실행한 명령이 끝나기를 기다리는 중입니다..."
-
-#~ msgid "Realtime Connections"
-#~ msgstr "실시간 연결수"
-
-#~ msgid "Realtime Load"
-#~ msgstr "실시간 부하"
-
-#~ msgid "Realtime Traffic"
-#~ msgstr "실시간 트래픽"
-
-#~ msgid ""
-#~ "This page gives an overview over currently active network connections."
-#~ msgstr "이 페이지는 현재 active 상태인 네트워크 연결을 보여줍니다."
-
-#~ msgid "Keep settings"
-#~ msgstr "설정 유지"
-
-#~ msgid ""
-#~ "Upload a sysupgrade-compatible image here to replace the running "
-#~ "firmware. Check \"Keep settings\" to retain the current configuration "
-#~ "(requires a compatible firmware image)."
-#~ msgstr ""
-#~ "실행중인 firmware 변경을 하고자 한다면 여기에 sysupgrade 호환성이 유지되"
-#~ "는 이미지를 업로드하세요.  현재의 설정을 유지하고자 한다면 \"설정 유지\" "
-#~ "를 체크하세요. (이를 지원하는 firmware 이미지 필요)"
-
-#~ msgid "Waiting for changes to be applied..."
-#~ msgstr "변경 사항이 적용되기를 기다리는 중입니다..."
-
-#~ msgid "Specifies the listening port of this <em>Dropbear</em> instance"
-#~ msgstr "<em>Dropbear</em> instance 의 listening 포트를 지정합니다"
-
-#~ msgid "Switch %q (%s)"
-#~ msgstr "스위치 %q (%s)"
-
-#~ msgid "VLANs on %q (%s)"
-#~ msgstr "VLAN 설정: %q (%s)"
-
-#~ msgid "Common Configuration"
-#~ msgstr "공통 설정"
-
-#~ msgid "Connect"
-#~ msgstr "연결"
-
-#~ msgid "Edit this interface"
-#~ msgstr "이 인터페이스를 수정합니다"
-
-#~ msgid "Interface Overview"
-#~ msgstr "인터페이스 개요"
-
-#~ msgid ""
-#~ "On this page you can configure the network interfaces. You can bridge "
-#~ "several interfaces by ticking the \"bridge interfaces\" field and enter "
-#~ "the names of several network interfaces separated by spaces. You can also "
-#~ "use <abbr title=\"Virtual Local Area Network\">VLAN</abbr> notation "
-#~ "<samp>INTERFACE.VLANNR</samp> (<abbr title=\"for example\">e.g.</abbr>: "
-#~ "<samp>eth0.1</samp>)."
-#~ msgstr ""
-#~ "이 페이지에서는 네트워크 인터페이스를 설정할 수 있습니다. \"Bridge 인터페"
-#~ "이스\" 항목을 클릭하고, 공백으로 구분된 네트워크 인터페이스들의 이름을 적"
-#~ "는 방식으로 여러 인터페이스들을 bridge 할 수 있습니다.  또한 <abbr "
-#~ "title=\"Virtual Local Area Network\">VLAN</abbr> 표기법인 "
-#~ "<samp>INTERFACE.VLANNR</samp> (<abbr title=\"for example\">예</abbr>: "
-#~ "<samp>eth0.1</samp>) 를 사용하실 수 있습니다."
-
-#~ msgid ""
-#~ "The <em>Device Configuration</em> section covers physical settings of the "
-#~ "radio hardware such as channel, transmit power or antenna selection which "
-#~ "are shared among all defined wireless networks (if the radio hardware is "
-#~ "multi-SSID capable). Per network settings like encryption or operation "
-#~ "mode are grouped in the <em>Interface Configuration</em>."
-#~ msgstr ""
-#~ "<em>장치 설정<em> 섹션은 channel, transmit power 혹은 antenna 선택과 같은 "
-#~ "물리적인 설정 내용을 다룹니다.  이 설정은 (만약 radio 하드웨어가 multi-"
-#~ "SSID 지원이 가능하다면) 정의된 모든 무선 네트워크에 공통적으로 적용됩니"
-#~ "다. 암호화 혹은 operation mode 와 같은 각 네트워크 설정들은 <em>인터페이"
-#~ "스 설정</em>에서 다루어집니다."
-
-#~ msgid "Uploaded File"
-#~ msgstr "Uploaded File"
-
-#~ msgid "Wireless is restarting..."
-#~ msgstr "무선랜이 재시작중입니다..."
-
-#~ msgid "The following changes have been reverted"
-#~ msgstr "다음의 변경 사항들이 취소되었습니다"
-
-#~ msgid "Theme"
-#~ msgstr "디자인"
-
-#~ msgid "Time Synchronization is not configured yet."
-#~ msgstr "시간 동기화가 아직 설정되지 않았습니다."
-
-#~ msgid ""
-#~ "Here you can paste public SSH-Keys (one per line) for SSH public-key "
-#~ "authentication."
-#~ msgstr ""
-#~ "아래에 SSH public-key 인증을 위한 공개 SSH-Key 들 (한 줄당 한개) 를 입력"
-#~ "할 수 있습니다."
-
-#~ msgid "Available packages"
-#~ msgstr "이용 가능한 패키지"
-
-#~ msgid ""
-#~ "Build/distribution specific feed definitions. This file will NOT be "
-#~ "preserved in any sysupgrade."
-#~ msgstr ""
-#~ "Build/distribution 지정 feed 목록입니다.  이 파일의 내용은 sysupgrade 시 "
-#~ "초기화됩니다."
-
-#~ msgid ""
-#~ "Custom feed definitions, e.g. private feeds. This file can be preserved "
-#~ "in a sysupgrade."
-#~ msgstr ""
-#~ "개인이 운영하는 feed 같은 정보를 입력할 수 있는 custom feed 목록입니다. "
-#~ "이 파일은 sysupgrade 시 입력된 정보가 유지됩니다."
-
-#~ msgid "Custom feeds"
-#~ msgstr "Custom feed 들"
-
-#~ msgid "Distribution feeds"
-#~ msgstr "Distribution feed 들"
-
-#~ msgid "Download and install package"
-#~ msgstr "패키지 다운로드 후 설치"
-
-#~ msgid "Find package"
-#~ msgstr "패키지 찾기"
-
-#~ msgid "Free space"
-#~ msgstr "여유 공간"
-
-#~ msgid "General options for opkg"
-#~ msgstr "opkg 명령의 기본 옵션들"
-
-#~ msgid "Install"
-#~ msgstr "설치"
-
-#~ msgid "Installed packages"
-#~ msgstr "설치된 패키지"
-
-#~ msgid "OPKG-Configuration"
-#~ msgstr "OPKG-설정"
-
-#~ msgid "Package name"
-#~ msgstr "패키지 이름"
-
-#~ msgid "Size (.ipk)"
-#~ msgstr "크기 (.ipk)"
-
-#~ msgid "Software"
-#~ msgstr "소프트웨어"
-
-#~ msgid "Version"
-#~ msgstr "버전"
-
-#~ msgid "IPv4 and IPv6"
-#~ msgstr "IPv4 와 IPv6"
-
-#~ msgid "No chains in this table"
-#~ msgstr "이 table 에는 정의된 chain 이 없음"
-
-#~ msgid "Activate this network"
-#~ msgstr "이 네트워를 활성화합니다"
-
-#~ msgid "Reconnecting interface"
-#~ msgstr "인터페이스 재연결중입니다"
-
-#~ msgid "Shutdown this network"
-#~ msgstr "이 네트워크를 shutdown 합니다"
-
-#~ msgid "Wireless restarted"
-#~ msgstr "무선랜이 재시작되었습니다"
-
-#~ msgid "Wireless shut down"
-#~ msgstr "무선랜이 shutdown 되었습니다"
-
-#~ msgid "DHCP Leases"
-#~ msgstr "DHCP 임대 정보"
-
-#~ msgid "DHCPv6 Leases"
-#~ msgstr "DHCPv6 임대 정보"
-
-#~ msgid ""
-#~ "Really shut down network? You might lose access to this device if you are "
-#~ "connected via this interface."
-#~ msgstr ""
-#~ "정말로 네트워크를 shutdown 하시겠습니까?\\n이 인터페이스를 통해 연결하였다"
-#~ "면 접속이 끊어질 수 있습니다."
-
-#~ msgid "Sort"
-#~ msgstr "순서"
-
-#~ msgid "IPv4 WAN Status"
-#~ msgstr "IPv4 WAN 상태"
-
-#~ msgid "IPv6 WAN Status"
-#~ msgstr "IPv6 WAN 상태"
-
-#~ msgid "Apply"
-#~ msgstr "적용"
-
-#~ msgid "Save &#38; Apply"
-#~ msgstr "저장 &#38; 적용"
-
-#~ msgid "Leasetime"
-#~ msgstr "임대 시간"
