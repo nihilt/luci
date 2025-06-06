@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-07 12:02+0000\n"
-"Last-Translator: snk0911 <sewerin.kuss@outlook.com>\n"
+"PO-Revision-Date: 2025-06-02 19:03+0000\n"
+"Last-Translator: FKdeveloper <felix.koeppel.ch@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/de/>\n"
 "Language: de\n"
@@ -12,11 +12,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:213
 msgid "0.0.0.0<SPACE><DOMAIN>"
-msgstr ""
+msgstr "0.0.0.0<LEERZEICHEN><DOMAIN-NAME>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:212
 msgid "127.0.0.1<SPACE><DOMAIN>"
-msgstr ""
+msgstr "127.0.0.1<LEERZEICHEN><DOMAIN-NAME>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:528
 msgid "1Hosts List Selection"
@@ -24,15 +24,15 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:214
 msgid "<ADBLOCK-PLUS>"
-msgstr ""
+msgstr "<ADBLOCK-PLUS>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:211
 msgid "<DOMAIN>"
-msgstr ""
+msgstr "<DOMAIN>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:215
 msgid "<HTTP[S]-URL>"
-msgstr ""
+msgstr "<HTTP[S]-URL>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:272
 msgid "Action"
@@ -48,11 +48,11 @@ msgstr "Werbeblocker"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:46
 msgid "Add Allowlist Domain"
-msgstr ""
+msgstr "Füge Allowlist Domäne hinzu"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:11
 msgid "Add Blocklist Domain"
-msgstr ""
+msgstr "Füge Blocklist Domäne hinzu"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:47
 msgid "Add this (sub-)domain to your local allowlist."
@@ -200,7 +200,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:275
 msgid "Clear"
-msgstr ""
+msgstr "Leeren"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:269
 msgid "Client"
