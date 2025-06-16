@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-06-01 10:03+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-06-11 15:04+0000\n"
+"Last-Translator: SHUTDOWN <fidde_2003@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsxinetd/pt/>\n"
 "Language: pt\n"
@@ -29,6 +29,7 @@ msgid ""
 "Additional arguments passed to the server. There is no validation of this "
 "input."
 msgstr ""
+"Argumentos adicionais passados para o servidor. Esta entrada não é validada."
 
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:72
 msgid "Advanced Settings"
@@ -36,15 +37,15 @@ msgstr "Configurações avançadas"
 
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:230
 msgid "Allowed hosts"
-msgstr ""
+msgstr "Hosts permitidos"
 
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:71
 msgid "Basic Settings"
-msgstr ""
+msgstr "Definições básicas"
 
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:109
 msgid "Bind address"
-msgstr ""
+msgstr "Endereço de ligação"
 
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:177
 msgid "Complete path to the executable server file"
@@ -266,7 +267,7 @@ msgstr ""
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:50
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:102
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:102
 msgid "Type of service"
