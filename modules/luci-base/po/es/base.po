@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2025-06-12 17:01+0000\n"
+"PO-Revision-Date: 2025-07-14 19:03+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/luci/es/>"
 "\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1277
 msgid "!known (not known)"
@@ -957,7 +957,7 @@ msgstr "Ajustes avanzados"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
 msgid "Advanced device options"
-msgstr "Opciones avanzadas de dispositivo"
+msgstr "Opciones avanzadas del dispositivo"
 
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:34
 msgid ""
@@ -1337,7 +1337,7 @@ msgstr "Atributos para agregar/reemplazar en cada solicitud."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:22
 msgid "Auth"
-msgstr ""
+msgstr "Auth"
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:145
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:64
@@ -1346,7 +1346,7 @@ msgstr "Grupo de Autenticaciones"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:28
 msgid "Auth Priv"
-msgstr ""
+msgstr "Auth Priv"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1818
 msgid "Authentication"
@@ -1659,7 +1659,7 @@ msgstr "Puente (Soporta comunicación directa entre MAC VLANs)"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:451
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:467
 msgid "Bridge VLAN filtering"
-msgstr "Filtrado VLAN de puente"
+msgstr "Filtrado de VLAN del puente"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:461
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1499
@@ -2544,7 +2544,7 @@ msgstr "Datos transmitidos"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:159
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:346
 msgid "Debug"
-msgstr "Depuración"
+msgstr "Depurar"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/ipip6.js:70
 msgid "Default gateway"
@@ -3941,7 +3941,7 @@ msgstr "Nombre del archivo de la imagen de inicio anunciada a los clientes."
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:191
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:315
 msgid "Filesystem"
-msgstr "sistema de archivos"
+msgstr "Sistema de archivos"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:915
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:392
@@ -6070,7 +6070,7 @@ msgstr "Puerto de escucha"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:263
 msgid "Listen addresses"
-msgstr "Direcciones de escucha"
+msgstr "Escuchar direcciones"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:260
 msgid "Listen for peers"
@@ -6876,7 +6876,7 @@ msgstr "Monta intercambio (swap) no configurado específicamente"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:223
 msgid "Mounted file systems"
-msgstr "Sistemas de archivo montados"
+msgstr "Sistemas de archivos montados"
 
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:152
 msgid "Move down"
@@ -10032,7 +10032,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:293
 msgid "Specifies the directory the device is attached to"
-msgstr "Especifica el directorio al que está enlazado el dispositivo"
+msgstr "Especifique el directorio al que está enlazado el dispositivo"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:820
 msgid ""
