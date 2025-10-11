@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-03 11:02+0000\n"
+"PO-Revision-Date: 2025-10-09 18:26+0000\n"
 "Last-Translator: SnIPeRSnIPeR <snipersniper@users.noreply.hosted.weblate.org>"
 "\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
@@ -8,9 +8,10 @@ msgstr ""
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:65
 msgid "Accept only one client and exit on disconnection"
@@ -70,7 +71,7 @@ msgstr "Отладка"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:51
 msgid "Do not allow clients to write to the TTY"
-msgstr "Не разрешайте клиентам писать на TTY"
+msgstr "Запретить клиентам запись в TTY"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:59
 msgid "Do not allow websocket connection from different origin"
@@ -82,11 +83,12 @@ msgstr "Включить"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:69
 msgid "Enable IPv6 support"
-msgstr "Включить поддержку IPv6"
+msgstr ""
+"Включить поддержку <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:71
 msgid "Enable SSL"
-msgstr "Включить SSL"
+msgstr "Включить <abbr title=\"Secure Sockets Layer\">SSL</abbr>"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:83
 msgid "Error"
@@ -181,7 +183,7 @@ msgstr "Только для чтения"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:71
 msgid "SSL"
-msgstr "SSL"
+msgstr "<abbr title=\"Secure Sockets Layer\">SSL</abbr>"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:79
 msgid "SSL CA file path for client certificate verification"
@@ -222,7 +224,8 @@ msgstr "Сигнал"
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:46
 msgid "Signal to send to the command when exit it (default: 1, SIGHUP)"
 msgstr ""
-"Сигнал, отправляемый команде при завершении работы (по умолчанию: 1, SIGHUP)"
+"Сигнал, отправляемый команде при завершении работы "
+"(по умолчанию: 1, <abbr title=\"Hangup\">SIGHUP</abbr>)"
 
 #: applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json:3
 #: applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json:14
