@@ -49,7 +49,22 @@
 				"/sbin/ip -[46] rule show": [ "exec" ]
 			},
 			"ubus": {
-				"file": [ "exec", "stat" ],
+				"file": [ "exec" ],
+				"fingerprint": [ "fingerprint" ]
+			}
+		}
+	},
+
+	"luci-mod-status-routes-json": {
+		"description": "Grant access to routing status",
+		"read": {
+			"file": {
+				"/sbin/ip -[46] -j neigh show": [ "exec" ],
+				"/sbin/ip -[46] -j route show table all": [ "exec" ],
+				"/sbin/ip -[46] -j rule show": [ "exec" ]
+			},
+			"ubus": {
+				"file": [ "exec" ],
 				"fingerprint": [ "fingerprint" ]
 			}
 		}
