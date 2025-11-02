@@ -337,17 +337,19 @@ var CBIWifiFrequencyValue = form.Value.extend({
 				.reduce(function(o, v) { o[v] = true; return o; }, {});
 
 			this.htmodes = {
-				'': [ '', '-', { available: true } ],
-				'n': [
-					'HT20', '20 MHz', { available: htmodelist.HT20 },
-					'HT40', '40 MHz', { available: htmodelist.HT40 }
-				],
-				'ac': [
-					'VHT20', '20 MHz', { available: htmodelist.VHT20 },
-					'VHT40', '40 MHz', { available: htmodelist.VHT40 },
-					'VHT80', '80 MHz', { available: htmodelist.VHT80 },
-					'VHT160', '160 MHz', { available: htmodelist.VHT160 }
-				],
+'': [ '', '-', { available: true } ],
+'n': [
+    'HT20', '20 MHz', { available: htmodelist.HT20 },
+    'HT40', '40 MHz', { available: htmodelist.HT40 },
+    'VHT20', '20 MHz QAM-256', { available: htmodelist.VHT20 },
+    'VHT40', '40 MHz QAM-256', { available: htmodelist.VHT40 }
+],
+'ac': [
+    'VHT20', '20 MHz', { available: htmodelist.VHT20 },
+    'VHT40', '40 MHz', { available: htmodelist.VHT40 },
+    'VHT80', '80 MHz', { available: htmodelist.VHT80 },
+    'VHT160', '160 MHz', { available: htmodelist.VHT160 }
+],
 				'ax': [
 					'HE20', '20 MHz', { available: htmodelist.HE20 },
 					'HE40', '40 MHz', { available: htmodelist.HE40 },
@@ -466,19 +468,26 @@ var CBIWifiFrequencyValue = form.Value.extend({
 
 		this.setValues(mode, this.modes);
 
-		// Determine mode based on htmode value
-		if (/EHT20|EHT40|EHT80|EHT160|EHT320/.test(htval))
-			mode.value = 'be';		
-		else if (/HE20|HE40|HE80|HE160/.test(htval))
-			mode.value = 'ax';
-		else if (/VHT20|VHT40|VHT80|VHT160/.test(htval))
-			mode.value = 'ac';
-		else if (/HT20|HT40/.test(htval))
-			mode.value = 'n';
-		else
-			mode.value = '';
+		this.toggleWifiBand(elem);
 
-		this.toggleWifiMode(elem);
+/* Determine mode based on htmode value.
+ * Treat VHT20/VHT40 on 2.4GHz as 'n' for compatibility,
+ * otherwise VHT* maps to 'ac'. HE/EHT map to 'ax'/'be'.
+ */
+if (/EHT20|EHT40|EHT80|EHT160|EHT320/.test(htval))
+    mode.value = 'be';
+else if (/HE20|HE40|HE80|HE160/.test(htval))
+    mode.value = 'ax';
+else if (/VHT20|VHT40/.test(htval) && band.value === '2g')
+    mode.value = 'n';
+else if (/VHT20|VHT40|VHT80|VHT160/.test(htval))
+    mode.value = 'ac';
+else if (/HT20|HT40/.test(htval))
+    mode.value = 'n';
+else
+    mode.value = '';
+
+this.toggleWifiMode(elem);
 
 		if (hwval != null) {
 			this.useBandOption = false;
