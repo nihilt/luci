@@ -336,184 +336,199 @@ var CBIWifiFrequencyValue = form.Value.extend({
 			const htmodelist = L.toArray(wifidevs ? wifidevs.getHTModes() : null)
 				.reduce(function(o, v) { o[v] = true; return o; }, {});
 
-			this.htmodes = {
-				'': [ '', '-', { available: true } ],
-				'n': [
-					'HT20', '20 MHz', { available: htmodelist.HT20 },
-					'HT40', '40 MHz', { available: htmodelist.HT40 }
-				],
-				'ac': [
-					'VHT20', '20 MHz', { available: htmodelist.VHT20 },
-					'VHT40', '40 MHz', { available: htmodelist.VHT40 },
-					'VHT80', '80 MHz', { available: htmodelist.VHT80 },
-					'VHT160', '160 MHz', { available: htmodelist.VHT160 }
-				],
-				'ax': [
-					'HE20', '20 MHz', { available: htmodelist.HE20 },
-					'HE40', '40 MHz', { available: htmodelist.HE40 },
-					'HE80', '80 MHz', { available: htmodelist.HE80 },
-					'HE160', '160 MHz', { available: htmodelist.HE160 }
-				],
-				'be': [
-					'EHT20', '20 MHz', { available: htmodelist.EHT20 },
-					'EHT40', '40 MHz', { available: htmodelist.EHT40 },
-					'EHT80', '80 MHz', { available: htmodelist.EHT80 },
-					'EHT160', '160 MHz', { available: htmodelist.EHT160 },
-					'EHT320', '320 MHz', { available: htmodelist.EHT320 }
-				]
-			};
+            this.htmodes = {
+                '': [ '', '-', { available: true } ],
+                'n': [
+                    'HT20', '20 MHz', { available: htmodelist.HT20 },
+                    'HT40', '40 MHz', { available: htmodelist.HT40 },
+                    'VHT20', '20 MHz QAM-256', { available: htmodelist.VHT20 },
+                    'VHT40', '40 MHz QAM-256', { available: htmodelist.VHT40 }
+                ],
+                'ac': [
+                    'VHT20', '20 MHz', { available: htmodelist.VHT20 },
+                    'VHT40', '40 MHz', { available: htmodelist.VHT40 },
+                    'VHT80', '80 MHz', { available: htmodelist.VHT80 },
+                    'VHT160', '160 MHz', { available: htmodelist.VHT160 }
+                ],
+                'ax': [
+                    'HE20', '20 MHz', { available: htmodelist.HE20 },
+                    'HE40', '40 MHz', { available: htmodelist.HE40 },
+                    'HE80', '80 MHz', { available: htmodelist.HE80 },
+                    'HE160', '160 MHz', { available: htmodelist.HE160 }
+                ],
+                'be': [
+                    'EHT20', '20 MHz', { available: htmodelist.EHT20 },
+                    'EHT40', '40 MHz', { available: htmodelist.EHT40 },
+                    'EHT80', '80 MHz', { available: htmodelist.EHT80 },
+                    'EHT160', '160 MHz', { available: htmodelist.EHT160 },
+                    'EHT320', '320 MHz', { available: htmodelist.EHT320 }
+                ]
+            };
 
-			// Define available bands for widget selection based on channel availability
-			// AX and BE are available on 2/5/6G bands
-			this.bands = {
-				'': [
-					'2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
-					'5g', '5 GHz', { available: this.channels['5g'].length > 3 },
-					'60g', '60 GHz', { available: this.channels['60g'].length > 0 }
-				],
-				'n': [
-					'2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
-					'5g', '5 GHz', { available: this.channels['5g'].length > 3 }
-				],
-				'ac': [
-					'5g', '5 GHz', { available: true }
-				],
-				'ax': [
-					'2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
-					'5g', '5 GHz', { available: this.channels['5g'].length > 3 },
-					'6g', '6 GHz', { available: this.channels['6g'].length > 3 }
-				],
-				'be': [
-					'2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
-					'5g', '5 GHz', { available: this.channels['5g'].length > 3 },
-					'6g', '6 GHz', { available: this.channels['6g'].length > 3 }
-				]
-			};
-		}, this));
-	},
+            // Define available bands for widget selection based on channel availability
+            // AX and BE are available on 2/5/6 GHz bands
+            this.bands = {
+                '': [
+                    '2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
+                    '5g', '5 GHz', { available: this.channels['5g'].length > 3 },
+                    '6g', '6 GHz', { available: this.channels['6g'].length > 0 }
+                ],
+                'n': [
+                    '2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
+                    '5g', '5 GHz', { available: this.channels['5g'].length > 3 }
+                ],
+                'ac': [
+                    '5g', '5 GHz', { available: true }
+                ],
+                'ax': [
+                    '2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
+                    '5g', '5 GHz', { available: this.channels['5g'].length > 3 },
+                    '6g', '6 GHz', { available: this.channels['6g'].length > 3 }
+                ],
+                'be': [
+                    '2g', '2.4 GHz', { available: this.channels['2g'].length > 3 },
+                    '5g', '5 GHz', { available: this.channels['5g'].length > 3 },
+                    '6g', '6 GHz', { available: this.channels['6g'].length > 3 }
+                ]
+            };
+        }, this));
+    },
 
-	// Set values in the select element
-	setValues: function(sel, vals) {
-		if (sel.vals)
-			sel.vals.selected = sel.selectedIndex;
+    // Set values in the select element
+    setValues: function(sel, vals) {
+        if (sel.vals)
+            sel.vals.selected = sel.selectedIndex;
 
-		sel.options.length = 0;
+        sel.options.length = 0;
 
-		for (let i = 0; vals && i < vals.length; i += 3)
-			if (vals[i+2]?.available)
-				sel.add(E('option', { value: vals[i] }, [ vals[i+1] ]));
+        for (let i = 0; vals && i < vals.length; i += 3)
+            if (vals[i+2]?.available)
+                sel.add(E('option', { value: vals[i] }, [ vals[i+1] ]));
 
-		if (Number.isInteger(vals?.selected)) sel.selectedIndex = vals.selected;
+        if (Number.isInteger(vals?.selected)) sel.selectedIndex = vals.selected;
 
-		sel.parentNode.style.display = (sel.options.length <= 1) ? 'none' : '';
-		sel.vals = vals;
-	},
+        sel.parentNode.style.display = (sel.options.length <= 1) ? 'none' : '';
+        sel.vals = vals;
+    },
 
-	toggleWifiMode: function(elem) {
-		this.toggleWifiHTMode(elem);
-		this.toggleWifiBand(elem);
-	},
+    toggleWifiMode: function(elem) {
+        this.toggleWifiHTMode(elem);
+        this.toggleWifiBand(elem);
+    },
 
-	toggleWifiHTMode: function(elem) {
-		const mode = elem.querySelector('.mode');
-		const bwdt = elem.querySelector('.htmode');
+    toggleWifiHTMode: function(elem) {
+        const mode = elem.querySelector('.mode');
+        const bwdt = elem.querySelector('.htmode');
 
-		this.setValues(bwdt, this.htmodes[mode.value]);
-	},
+        this.setValues(bwdt, this.htmodes[mode.value]);
+    },
 
-	toggleWifiBand: function(elem) {
-		const mode = elem.querySelector('.mode');
-		const band = elem.querySelector('.band');
+    toggleWifiBand: function(elem) {
+        const mode = elem.querySelector('.mode');
+        const band = elem.querySelector('.band');
 
-		this.setValues(band, this.bands[mode.value]);
-		this.toggleWifiChannel(elem);
+        this.setValues(band, this.bands[mode.value]);
+        this.toggleWifiChannel(elem);
 
-		this.map.checkDepends();
-	},
+        this.map.checkDepends();
+    },
 
-	checkWifiChannelRestriction: function(elem) {
-		const band = elem.querySelector('.band');
-		const chan = elem.querySelector('.channel');
-		const restricted_chan = elem.querySelector('.restricted_channel');
-		const channels = this.channels[band.value];
+    checkWifiChannelRestriction: function(elem) {
+        const band = elem.querySelector('.band');
+        const chan = elem.querySelector('.channel');
+        const restricted_chan = elem.querySelector('.restricted_channel');
+        const channels = this.channels[band.value];
 
-		if (chan.selectedIndex < 0)
-			return;
+        if (chan.selectedIndex < 0)
+            return;
 
-		const no_outdoor = channels[(chan.selectedIndex*3)+2].no_outdoor;
-		restricted_chan.style.display = no_outdoor ? '': 'none';
-	},
+        const no_outdoor = channels[(chan.selectedIndex*3)+2].no_outdoor;
+        restricted_chan.style.display = no_outdoor ? '': 'none';
+    },
 
-	toggleWifiChannel: function(elem) {
-		const band = elem.querySelector('.band');
-		const chan = elem.querySelector('.channel');
+    toggleWifiChannel: function(elem) {
+        const band = elem.querySelector('.band');
+        const chan = elem.querySelector('.channel');
 
-		this.setValues(chan, this.channels[band.value]);
+        this.setValues(chan, this.channels[band.value]);
 
-		this.map.checkDepends();
-		this.checkWifiChannelRestriction(elem);
-	},
+        this.map.checkDepends();
+        this.checkWifiChannelRestriction(elem);
+    },
 
-	setInitialValues: function(section_id, elem) {
-		const mode = elem.querySelector('.mode');
-		const band = elem.querySelector('.band');
-		const chan = elem.querySelector('.channel');
-		const bwdt = elem.querySelector('.htmode');
-		const htval = uci.get('wireless', section_id, 'htmode');
-		const hwval = uci.get('wireless', section_id, 'hwmode');
-		const chval = uci.get('wireless', section_id, 'channel');
-		const bandval = uci.get('wireless', section_id, 'band');
+    setInitialValues: function(section_id, elem) {
+        const mode = elem.querySelector('.mode');
+        const band = elem.querySelector('.band');
+        const chan = elem.querySelector('.channel');
+        const bwdt = elem.querySelector('.htmode');
+        const htval = uci.get('wireless', section_id, 'htmode');
+        const hwval = uci.get('wireless', section_id, 'hwmode');
+        const chval = uci.get('wireless', section_id, 'channel');
+        const bandval = uci.get('wireless', section_id, 'band');
 
-		this.setValues(mode, this.modes);
+        this.setValues(mode, this.modes);
 
-		// Determine mode based on htmode value
-		if (/EHT20|EHT40|EHT80|EHT160|EHT320/.test(htval))
-			mode.value = 'be';		
-		else if (/HE20|HE40|HE80|HE160/.test(htval))
-			mode.value = 'ax';
-		else if (/VHT20|VHT40|VHT80|VHT160/.test(htval))
-			mode.value = 'ac';
-		else if (/HT20|HT40/.test(htval))
-			mode.value = 'n';
-		else
-			mode.value = '';
+        // (mode detection moved below to run after toggleWifiBand)
 
-		this.toggleWifiMode(elem);
+        if (hwval != null) {
+            this.useBandOption = false;
 
-		if (hwval != null) {
-			this.useBandOption = false;
+            // prefer band from hwmode if available
+            if (hwval.indexOf('11a') !== -1)
+                band.value = '5g';
+            else if (hwval.indexOf('11b') !== -1 || hwval.indexOf('11g') !== -1)
+                band.value = '2g';
+            else if (hwval.indexOf('11ax') !== -1 && hwval.indexOf('6') !== -1)
+                band.value = '6g';
+            else if (bandval)
+                band.value = bandval;
+        }
+        else {
+            this.useBandOption = true;
 
-			band.value = /a/.test(hwval) ? '5g': '2g';
-		}
-		else {
-			this.useBandOption = true;
+            band.value = bandval;
+        }
 
-			band.value = bandval;
-		}
+        this.toggleWifiBand(elem);
 
-		this.toggleWifiBand(elem);
+        // Determine mode based on htmode value (moved here to account for band selection)
+        if (/EHT20|EHT40|EHT80|EHT160|EHT320/.test(htval))
+            mode.value = 'be';
+        else if (/HE20|HE40|HE80|HE160/.test(htval))
+            mode.value = 'ax';
+        else if (/VHT20|VHT40/.test(htval) && band.value == '2g')
+            mode.value = 'n';
+        else if (/VHT20|VHT40|VHT80|VHT160/.test(htval))
+            mode.value = 'ac';
+        else if (/HT20|HT40/.test(htval))
+            mode.value = 'n';
+        else
+            mode.value = '';
 
-		bwdt.value = htval;
-		chan.value = chval ?? (chan.options[0] ? chan.options[0].value : 'auto');
+        /* update UI after mode.value is set */
+        this.toggleWifiMode(elem);
 
-		this.checkWifiChannelRestriction(elem);
+        bwdt.value = htval;
+        chan.value = chval ?? (chan.options[0] ? chan.options[0].value : 'auto');
 
-		return elem;
-	},
+        this.checkWifiChannelRestriction(elem);
 
-	renderWidget: function(section_id, option_index, cfgvalue) {
-		const elem = E('div');
+        return elem;
+    },
 
-		dom.content(elem, [
-			E('div', { 'class' : 'restricted_channel', 'style': 'display:none'}, [
-				E('div', {'class': 'cbi-button alert-message warning disabled'}, _('Indoor Only Channel Selected'))
-			]),
-			E('label', { 'style': 'float:left; margin-right:3px' }, [
-				_('Mode'), E('br'),
-				E('select', {
-					'class': 'mode',
-					'style': 'width:auto',
-					'change': L.bind(this.toggleWifiMode, this, elem),
+    renderWidget: function(section_id, option_index, cfgvalue) {
+        const elem = E('div');
+
+        dom.content(elem, [
+            E('div', { 'class' : 'restricted_channel', 'style': 'display:none'}, [
+                E('div', {'class': 'cbi-button alert-message warning disabled'}, _('Indoor Only Channel Selected'))
+            ]),
+            E('label', { 'style': 'float:left; margin-right:3px' }, [
+                _('Mode'), E('br'),
+                E('select', {
+                    'class': 'mode',
+                    'style': 'width:auto',
+                    'change': L.bind(this.toggleWifiMode, this, elem),
 					'disabled': (this.disabled != null) ? this.disabled : this.map.readonly
 				})
 			]),
