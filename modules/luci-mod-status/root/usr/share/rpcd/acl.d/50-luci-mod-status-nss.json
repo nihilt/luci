@@ -1,0 +1,17 @@
+{
+  "luci-mod-status-logs": {
+    "description": "Grant access to system logs and NSS stats",
+    "read": {
+      "cgi-io": [ "exec" ],
+      "file": {
+        "/sys/kernel/debug/qca-nss-drv/stats/cpu_load_ubi": [ "read" ],
+        "/bin/dmesg -r": [ "exec" ],
+        "/usr/libexec/syslog-wrapper": [ "exec" ]
+      },
+      "ubus": {
+        "log": [ "read" ],
+        "file": [ "stat" ]
+      }
+    }
+  }
+}
